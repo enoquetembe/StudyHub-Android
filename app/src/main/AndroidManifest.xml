@@ -12,6 +12,9 @@
         android:theme="@style/Theme.StudyHubAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".PresentationActivity"
             android:exported="false" />
         <activity
@@ -21,8 +24,7 @@
             android:name=".StudentRegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
-
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
