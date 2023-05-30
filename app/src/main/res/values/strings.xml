@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StudyHub-Android</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registar">Registar-se</string>
+    <string name="name">Nome</string>
+    <string name="register">Criar conta</string>
+    <string name="backlogin">Voltar para o login</string>
+    <string name="presentations">Encontre todos os exames aqui</string>
+    <string name="enter">Entrar</string>
+    <string name="open_nav">Open Nav</string>
+    <string name="close_nav">Close Nav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
