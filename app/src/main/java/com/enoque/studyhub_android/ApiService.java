@@ -14,7 +14,7 @@ import retrofit2.http.GET;
 
 
 public class ApiService {
-    private static final String BASE_URL = "http://192.168.168.160:8080";
+    private static final String BASE_URL = "http://172.22.176.1:8080";
     private static ApiService instance;
     private Retrofit retrofit;
 
@@ -49,6 +49,8 @@ public class ApiService {
         @GET("courses")
         Call<List<Course>> getCourses();
 
+        @GET("ddisciplines")
+        Call<List<Course>> getDisciplines();
     }
 
     public void fetchExams(final ExamAdapter examAdapter) {

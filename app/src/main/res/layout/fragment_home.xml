@@ -8,7 +8,6 @@
     android:background="@color/white"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,26 +15,60 @@
         android:background="@drawable/rectangle"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        android:paddingLeft="20dp">
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/hello"
-            android:textColor="@color/white"
-            android:textSize="32sp"
-            android:textStyle="bold" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:layout_marginBottom="10dp"
+           >
 
-        <TextView
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="@string/hello"
+                 android:textColor="@color/white"
+                 android:textSize="32sp"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="@string/welcome"
+                 android:textColor="@color/white"
+                 android:textSize="20sp" />
+         </LinearLayout>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/profilee"
+               android:layout_marginLeft="100dp"
+               />
+       </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/welcome"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/vbanner"
+            android:layout_gravity="center"
+            >
+
+
+        </LinearLayout>
 
 
     </LinearLayout>
-
 
 
     <LinearLayout
